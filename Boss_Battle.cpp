@@ -280,8 +280,8 @@ int main() {
 			return 0;
 		}
 
-		boss_health = boss_health_base + (1 + (round / 3));
-		boss_attack = thirddTOfived(gen) * (1 + (round / 2));
+		boss_health = boss_health_base + (round * (thirddTOfived(gen)/4));
+		boss_attack = thirddTOfived(gen) * (1 + (round / 3));
 
 		while (fighting == true) {
 			while (boss_health > 0 && health > 0) {
@@ -343,8 +343,8 @@ int main() {
 						}
 						if (fight_select == 4 && bomb > 0) {
 							bomb--;
-							std::cout << "BOMB blew up the BOSS for -40" << std::endl;
-							boss_health -= 100;
+							std::cout << "BOMB blew up the BOSS for -60" << std::endl;
+							boss_health -= 60;
 							fight_select = 0;
 						}
 						else if (fight_select == 3 && health_potion <= 0) {
