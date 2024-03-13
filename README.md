@@ -3,6 +3,7 @@ Boss Battles Game
 Welcome to the "Boss Battles" game! This simple text-based game allows you to choose a character and engage in epic boss battles. Purchase items from the shop, defeat bosses, and survive as many rounds as possible. Do you have what it takes to be the ultimate champion?
 
 How to Play
+-----------
 Choose Your Character
 
 TANK (1): Health: 300, Attack: 250, Speed: 10, Attack Chance: 40
@@ -10,8 +11,6 @@ TANK (1): Health: 300, Attack: 250, Speed: 10, Attack Chance: 40
 GRUNT (2): Health: 150, Attack: 100, Speed: 50, Attack Chance: 60
 
 SWIFTY (3): Health: 50, Attack: 80, Speed: 80, Attack Chance: 80
-
-Enter the number corresponding to your desired character.
 
 
 Game Menu Options
